@@ -14,6 +14,9 @@
         margin: 0;
         padding: 0;
         color: #333333;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
         }
         header {
         background-color: #1e293b;
@@ -38,14 +41,13 @@
         }
         main{
         display:flex;
+        flex: 1;
         }
         aside {
         width: 25%;
-        float: left;
         background-color: #ffffff;
         padding: 20px;
         box-sizing: border-box;
-        min-height: 450px;
         }
         aside h3 {
         color: #1e293b;
@@ -72,13 +74,12 @@
         }
         section {
         width: 75%;
-        float: left;
         padding: 20px;
         box-sizing: border-box;
         }
         iframe {
         width: 100%;
-        height: 400px;
+        height: 100%;
         border: 2px solid #334155;
         background-color: #ffffff;
         }
@@ -119,7 +120,7 @@
         </section>
     </main>
     <footer>
-        <p>Diseñado por <strong>Lucio Ferrara</strong> y <strong>Santino Argnani</strong> | Curso <strong>3°C</strong></p>
+        <p>Diseñado por: <span>Lucio Ferrara</span> y <span>Santino Argnani</span> | Curso: <span>3C</span></p>
     </footer>
 </body>
 </html>
